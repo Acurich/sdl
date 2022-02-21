@@ -3,7 +3,7 @@
 #define WINDOW_WIDTH 600
 
 using namespace std;
-
+.
 void hLine(SDL_Renderer *renderer, int x, int y, int length) {
     if (length < 0) for (int i = x; i > x + length; i--) SDL_RenderDrawPoint(renderer, i, y);
     else for (int i = x; i < x + length; i++) SDL_RenderDrawPoint(renderer, i, y);
