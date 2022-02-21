@@ -4,7 +4,7 @@
 #include <SDL.h>
 #define WINDOW_WIDTH 600
 using namespace std;
-
+.
 void line (SDL_Renderer *renderer, int x1, int y1, int x2, int y2) {
 
     int len = max(abs(x2-x1), abs(y2-y1));
